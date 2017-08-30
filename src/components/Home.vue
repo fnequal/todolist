@@ -3,7 +3,7 @@
     <p class="date"><em>今天</em>&nbsp;&nbsp;{{date}}&nbsp;&nbsp;{{day}}</p>
     <router-link to="/list" class="start">任务追踪</router-link>
     <div class="text-center today">
-      <img src="../../static/img/idea.png" alt="">
+      <img src="../../static/idea.png" alt="">
       <div class="no-task" v-if="!todayTasks.length">
         <p>今天没有更多任务</p>
         <p>祝您一天过得愉快</p>
