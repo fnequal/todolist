@@ -25,12 +25,13 @@ npm run build --report
 npm run server
 ```
 
-前端运行在8081端口，可在config下的index.js修改：
+前端运行在8081端口，可在config下的index.js修改端口。
 
-后端运行在8888端口，文件是app.js，记得先开启mongodb
+后端运行在8888端口，人口文件是app.js，记得先开启mongodb
 
 不同端口请求发生跨域，有两种解决方案：
-一、可在config下的index.js对proxyTable进行修改，如下，
+
+一、可在config下的index.js对proxyTable进行修改，如下：
 <pre>
 proxyTable: {
   '/api': {
